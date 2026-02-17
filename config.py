@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI only store and send @AdultHungama files to respected users.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI only store and send @TheKaiVerse files to respected users.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6936205602").split()):
@@ -63,7 +63,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has bee
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Bot ke msg mat kar lowdu! Bot use karna nahi ata toh ye video dekh le https://t.me/AdultHungama1/23 ❌"
+USER_REPLY_TEXT = "❌Bot ke msg mat kar❌"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
